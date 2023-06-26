@@ -424,7 +424,7 @@ module Benchmark = struct
 
   let create_initial merlins =
     {
-      bench = { name = "Merlin benchmark"; results = StringMap.empty };
+      bench = { results = StringMap.empty };
       query_responses = [];
       commands = [];
       logs = [];
